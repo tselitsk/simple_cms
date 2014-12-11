@@ -10,6 +10,6 @@ class CreateSectionEdits < ActiveRecord::Migration
   end
 
   def down
-  	#drop_table :section_edits
+  	drop_table :section_edits
   end
 end
